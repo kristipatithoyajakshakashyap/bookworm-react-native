@@ -1,0 +1,66 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment files ---
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Expo / React Native ---
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.expo
+expo-env.d.ts
+
+# --- Android / iOS ---
+android/app/*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- macOS / System Files ---
+.DS_Store
+*.pem
+
+# --- Metro (React Native) ---
+.metro-health-check*
+
+# --- Logs and debugging ---
+debug.log
+*.log
+
+# --- Build / Output ---
+build/
+out/
+coverage/
+.next/
+.cache/
+tmp/
+temp/
+.vscode/
+
+# --- Misc ---
+*.swp
+*.swo
+.idea/
+*.iml
+*.bak
+
+# --- Project-specific ---
+app-example/
+env/
